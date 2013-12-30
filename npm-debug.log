@@ -1,0 +1,133 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/CM/.nvm/v0.10.15/bin/node',
+1 verbose cli   '/Users/CM/.nvm/v0.10.15/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/CM/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/tmp.tgz
+12 verbose folder .
+13 info prepublish joymap_widget_sdk@0.1.22
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/CM/.npm/1f1177db-tar.lock
+16 silly lockFile 9e5f8384-49375-0-7701656750869006-tmp-tgz tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/tmp.tgz
+17 verbose lock tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/tmp.tgz /Users/CM/.npm/9e5f8384-49375-0-7701656750869006-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 9e5f8384-49375-0-7701656750869006-tmp-tgz tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/tmp.tgz
+21 silly lockFile 9e5f8384-49375-0-7701656750869006-tmp-tgz tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/tmp.tgz
+22 verbose tar unpack /var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/tmp.tgz
+23 silly lockFile be5f4341-49375-0-7701656750869006-package tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/package
+24 verbose lock tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/package /Users/CM/.npm/be5f4341-49375-0-7701656750869006-package.lock
+25 silly lockFile 9e5f8384-49375-0-7701656750869006-tmp-tgz tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/tmp.tgz
+26 verbose lock tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/tmp.tgz /Users/CM/.npm/9e5f8384-49375-0-7701656750869006-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly lockFile be5f4341-49375-0-7701656750869006-package tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/package
+30 silly lockFile be5f4341-49375-0-7701656750869006-package tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/package
+31 silly lockFile 9e5f8384-49375-0-7701656750869006-tmp-tgz tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/tmp.tgz
+32 silly lockFile 9e5f8384-49375-0-7701656750869006-tmp-tgz tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/tmp.tgz
+33 verbose tar pack [ '/Users/CM/.npm/joymap_widget_sdk/0.1.22/package.tgz',
+33 verbose tar pack   '/var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/package' ]
+34 verbose tarball /Users/CM/.npm/joymap_widget_sdk/0.1.22/package.tgz
+35 verbose folder /var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/package
+36 silly lockFile be5f4341-49375-0-7701656750869006-package tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/package
+37 verbose lock tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/package /Users/CM/.npm/be5f4341-49375-0-7701656750869006-package.lock
+38 silly lockFile 2a71d047-ap-widget-sdk-0-1-22-package-tgz tar:///Users/CM/.npm/joymap_widget_sdk/0.1.22/package.tgz
+39 verbose lock tar:///Users/CM/.npm/joymap_widget_sdk/0.1.22/package.tgz /Users/CM/.npm/2a71d047-ap-widget-sdk-0-1-22-package-tgz.lock
+40 silly lockFile be5f4341-49375-0-7701656750869006-package tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/package
+41 silly lockFile be5f4341-49375-0-7701656750869006-package tar:///var/folders/s2/6vlslkz93nq_wb2pcs8p7j7h0000gp/T/npm-13676-G72UpHa-/1388390549375-0.7701656750869006/package
+42 silly lockFile 2a71d047-ap-widget-sdk-0-1-22-package-tgz tar:///Users/CM/.npm/joymap_widget_sdk/0.1.22/package.tgz
+43 silly lockFile 2a71d047-ap-widget-sdk-0-1-22-package-tgz tar:///Users/CM/.npm/joymap_widget_sdk/0.1.22/package.tgz
+44 silly lockFile eec50a38-joymap-widget-sdk-0-1-22-package /Users/CM/.npm/joymap_widget_sdk/0.1.22/package
+45 verbose lock /Users/CM/.npm/joymap_widget_sdk/0.1.22/package /Users/CM/.npm/eec50a38-joymap-widget-sdk-0-1-22-package.lock
+46 silly lockFile eec50a38-joymap-widget-sdk-0-1-22-package /Users/CM/.npm/joymap_widget_sdk/0.1.22/package
+47 silly lockFile eec50a38-joymap-widget-sdk-0-1-22-package /Users/CM/.npm/joymap_widget_sdk/0.1.22/package
+48 verbose tar unpack /Users/CM/.npm/joymap_widget_sdk/0.1.22/package.tgz
+49 silly lockFile e13ac9ba-joymap-widget-sdk-0-1-22-package tar:///Users/CM/.npm/joymap_widget_sdk/0.1.22/package
+50 verbose lock tar:///Users/CM/.npm/joymap_widget_sdk/0.1.22/package /Users/CM/.npm/e13ac9ba-joymap-widget-sdk-0-1-22-package.lock
+51 silly lockFile 2a71d047-ap-widget-sdk-0-1-22-package-tgz tar:///Users/CM/.npm/joymap_widget_sdk/0.1.22/package.tgz
+52 verbose lock tar:///Users/CM/.npm/joymap_widget_sdk/0.1.22/package.tgz /Users/CM/.npm/2a71d047-ap-widget-sdk-0-1-22-package-tgz.lock
+53 silly gunzTarPerm modes [ '755', '644' ]
+54 silly gunzTarPerm extractEntry package.json
+55 silly lockFile e13ac9ba-joymap-widget-sdk-0-1-22-package tar:///Users/CM/.npm/joymap_widget_sdk/0.1.22/package
+56 silly lockFile e13ac9ba-joymap-widget-sdk-0-1-22-package tar:///Users/CM/.npm/joymap_widget_sdk/0.1.22/package
+57 silly lockFile 2a71d047-ap-widget-sdk-0-1-22-package-tgz tar:///Users/CM/.npm/joymap_widget_sdk/0.1.22/package.tgz
+58 silly lockFile 2a71d047-ap-widget-sdk-0-1-22-package-tgz tar:///Users/CM/.npm/joymap_widget_sdk/0.1.22/package.tgz
+59 verbose chmod /Users/CM/.npm/joymap_widget_sdk/0.1.22/package.tgz 644
+60 verbose chown /Users/CM/.npm/joymap_widget_sdk/0.1.22/package.tgz [ 502, 20 ]
+61 silly lockFile 3a52ce78- .
+62 silly lockFile 3a52ce78- .
+63 silly publish { name: 'joymap_widget_sdk',
+63 silly publish   version: '0.1.22',
+63 silly publish   main: 'index.js',
+63 silly publish   description: 'JOYmap widget sdk',
+63 silly publish   keywords: [ 'widget', 'server' ],
+63 silly publish   author: { name: 'joymap', email: 'contact@joymap.cn' },
+63 silly publish   homepage: 'https://github.com/joymap/joymap_widget_sdk',
+63 silly publish   bugs:
+63 silly publish    { url: 'https://github.com/joymap/joymap_widget_sdk/issues',
+63 silly publish      email: 'contact@joymap.cn' },
+63 silly publish   repository:
+63 silly publish    { type: 'git',
+63 silly publish      url: 'https://github.com/joymap/joymap_widget_sdk.git' },
+63 silly publish   scripts: { test: 'node -D ./test/run.js' },
+63 silly publish   os: [ 'macos', 'linux', 'darwin', 'win32' ],
+63 silly publish   dependencies:
+63 silly publish    { async: '0.2.9',
+63 silly publish      request: '2.27.0',
+63 silly publish      mocha: '1.13.0',
+63 silly publish      'mocha-runner': '0.0.4',
+63 silly publish      should: '1.3.0',
+63 silly publish      blanket: '1.1.5',
+63 silly publish      muk: '0.3.1' },
+63 silly publish   engines: { node: '>=0.10.0' },
+63 silly publish   readme: 'ERROR: No README data found!',
+63 silly publish   _id: 'joymap_widget_sdk@0.1.22',
+63 silly publish   dist: { shasum: '692d661637ab50a555d06ec2c72b391a213c85ba' },
+63 silly publish   _from: '.' }
+64 verbose url raw joymap_widget_sdk
+65 verbose url resolving [ 'https://registry.npmjs.org/', './joymap_widget_sdk' ]
+66 verbose url resolved https://registry.npmjs.org/joymap_widget_sdk
+67 info trying registry request attempt 1 at 16:02:29
+68 http PUT https://registry.npmjs.org/joymap_widget_sdk
+69 http 409 https://registry.npmjs.org/joymap_widget_sdk
+70 verbose url raw joymap_widget_sdk
+71 verbose url resolving [ 'https://registry.npmjs.org/', './joymap_widget_sdk' ]
+72 verbose url resolved https://registry.npmjs.org/joymap_widget_sdk
+73 info trying registry request attempt 1 at 16:02:38
+74 http GET https://registry.npmjs.org/joymap_widget_sdk
+75 http 200 https://registry.npmjs.org/joymap_widget_sdk
+76 error publish fail Cannot publish over existing version.
+76 error publish fail Update the 'version' field in package.json and try again.
+76 error publish fail
+76 error publish fail If the previous version was published in error, see:
+76 error publish fail     npm help unpublish
+76 error publish fail
+76 error publish fail To automatically increment version numbers, see:
+76 error publish fail     npm help version
+77 error System Darwin 12.4.0
+78 error command "/Users/CM/.nvm/v0.10.15/bin/node" "/Users/CM/.nvm/v0.10.15/bin/npm" "publish"
+79 error cwd /Users/CM/Develop/Projects/joymap_widget_sdk
+80 error node -v v0.10.15
+81 error npm -v 1.3.5
+82 error code EPUBLISHCONFLICT
+83 verbose exit [ 1, true ]
