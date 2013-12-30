@@ -1,24 +1,24 @@
 {
-  "name": "joymap_widget_sdk",
+  "name": "wx_widget_sdk",
   "version": "0.1.22",
   "main": "index.js",
-  "description": "JOYmap widget sdk",
+  "description": "widget sdk",
   "keywords": [
     "widget",
     "server"
   ],
   "author": {
-    "name": "joymap",
-    "email": "contact@joymap.cn"
+    "name": "doublespout",
+    "email": "snoopyxdy@163.com"
   },
-  "homepage": "https://github.com/joymap/joymap_widget_sdk",
+  "homepage": "https://github.com/DoubleSpout/wx_widget_sdk",
   "bugs": {
-    "url": "https://github.com/joymap/joymap_widget_sdk/issues",
-    "email": "contact@joymap.cn"
+    "url": "https://github.com/DoubleSpout/wx_widget_sdk/issues",
+    "email": "snoopyxdy@163.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joymap/joymap_widget_sdk.git"
+    "url": "https://github.com/DoubleSpout/wx_widget_sdk.git"
   },
   "scripts": {
     "test": "node -D ./test/run.js",
@@ -43,4 +43,3 @@
     "node": ">=0.10.0"
   }
 }
-
